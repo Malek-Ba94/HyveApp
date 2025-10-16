@@ -3,7 +3,7 @@ import { useNavigate, Link } from "react-router-dom";
 import Swal from "sweetalert2";
 import Navbar from "../Common/Navbar";
 import Footer from "../Common/Footer";
-import WeatherWidget from "../Weather/weatherwidget.jsx";
+import WeatherWidget from "../weather/weatherwidget.jsx";
 
 
 export default function Home() {
