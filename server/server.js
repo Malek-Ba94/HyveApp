@@ -13,7 +13,7 @@ app.use(cors());
 app.use(express.json());
 
 mongoose
-  .connect("mongodb://127.0.0.1:27017/hyveapp", {
+  .connect("mongodb+srv://benabdallahmalek0_db_user:bI8JhND3mV221NNl@hyveapp.6ztm0ws.mongodb.net/HyveOnline", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
