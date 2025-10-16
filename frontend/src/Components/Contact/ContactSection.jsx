@@ -2,7 +2,7 @@ import { useState } from "react";
 import Swal from "sweetalert2";
 import Navbar from "../Common/Navbar";
 import Footer from "../Common/Footer";
-import { sendMessage } from "../../API/contact"; // ✅ IMPORT
+import { sendMessage } from "../../API/contact";
 
 export default function ContactSection() {
   const [form, setForm] = useState({

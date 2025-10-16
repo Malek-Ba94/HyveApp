@@ -1,6 +1,6 @@
 
 import axios from "axios";
-const API_URL = "http://localhost:7200/api/auth";
+const API_URL = "https://hyve-server-zsp9.onrender.com";
 
 export const registerUser = async (data) => {
   return axios.post(`${API_URL}/register`, data);

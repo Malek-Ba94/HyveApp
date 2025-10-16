@@ -1,5 +1,5 @@
 import axios from "axios";
-const API_URL = "http://localhost:7200/api/orders";
+const API_URL = "https://hyve-server-zsp9.onrender.com";
 
 export const createOrder = async (orderData) => {
   return axios.post(API_URL, orderData);
