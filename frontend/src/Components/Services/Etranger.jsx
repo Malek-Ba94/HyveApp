@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 import { toggleFav as saveFav } from "../../API/auth";
 import axios from "axios";
 
-const API_URL = "https://hyve-server-zsp9.onrender.com"; 
+const API_URL = "https://hyve-server-zsp9.onrender.com/api/services"; 
 
 function programHTML(serviceName, dates = []) {
   const formattedDates =

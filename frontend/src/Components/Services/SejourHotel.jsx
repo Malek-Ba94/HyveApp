@@ -9,7 +9,7 @@ import axios from "axios";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 
-const API_URL = "https://hyve-server-zsp9.onrender.com";
+const API_URL = "https://hyve-server-zsp9.onrender.com/api/services";
 
 function programHTML(name) {
   return `
