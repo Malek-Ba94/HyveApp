@@ -1,0 +1,9 @@
+:root{
+  --hyve-green:#025244;
+  --hyve-lime:#b0ce58;
+  --radius:0.75rem;
+}
+
+html, body { height: 100%; }
+body { background:#f8fafc; color:#0f172a; }
+
